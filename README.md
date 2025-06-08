@@ -1,60 +1,87 @@
-# HR-Analytics-Employee-Attrition-Prediction
-Built and trained a machine learning model to predict employee attrition based on HR datasets. Visualized key attrition drivers such as salary, satisfaction, and workload using charts. Delivered clear insights for HR stakeholders, making it a showcase-ready project for analytics or data science roles.
+# 🧑‍💼 HR Analytics – Employee Attrition Prediction
 
-📌 Project Objective
+Built and trained a machine learning model to predict employee attrition using real-world HR data.  
+Visualized key attrition drivers such as salary, job satisfaction, and overtime using charts.  
+This showcase-ready project delivers actionable insights for HR stakeholders.
 
-To analyze employee data and predict attrition using machine learning. The goal is to help HR teams identify at-risk employees and improve retention strategies.
+---
 
-🧰 Tools & Technologies
+## 📌 Project Objective
 
-Python
+To analyze employee data and predict attrition using machine learning.  
+The objective is to help HR teams identify at-risk employees and improve retention strategies.
 
-Pandas, NumPy
+---
 
-Matplotlib, Seaborn
+## 🧰 Tools & Technologies
 
-Scikit-learn
+- **Python**
+- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 
-📂 Dataset
+---
 
-IBM HR Analytics Employee Attrition & Performance Available on Kaggle
+## 📂 Dataset
 
-🔍 Key Steps
+- **Source:** [IBM HR Analytics Employee Attrition & Performance – Kaggle](https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset)
+- Features include: Age, MonthlyIncome, OverTime, JobSatisfaction, WorkLifeBalance, and Attrition flag
 
-Data Cleaning & Encoding: Converted 'Attrition' to binary and applied one-hot encoding to categorical columns.
+---
 
-Exploratory Data Analysis: Identified patterns in attrition by monthly income, age, job satisfaction, etc.
+## 🔍 Key Steps
 
-Model Training: Built a Random Forest Classifier to predict attrition.
+1. **Data Cleaning & Encoding**
+   - Converted `Attrition` to binary
+   - Applied one-hot encoding to categorical features
 
-Evaluation: Used precision, recall, F1-score for performance evaluation.
+2. **Exploratory Data Analysis (EDA)**
+   - Visualized attrition by income, age, job satisfaction, overtime, and job role
 
-Feature Importance: Identified top 10 factors contributing to employee attrition.
+3. **Model Training**
+   - Used **Random Forest Classifier** to build a predictive model
 
-📊 Sample Insights
+4. **Model Evaluation**
+   - Measured accuracy, precision, recall, and F1-score
 
-Employees with overtime are more likely to leave.
+5. **Feature Importance**
+   - Extracted top features contributing to employee attrition
 
-Lower monthly income and job satisfaction also show higher attrition.
+---
 
-Top factors influencing attrition include: OverTime, JobLevel, MonthlyIncome, Age.
+## 📊 Sample Insights
 
-✅ Results
+- Employees working **OverTime** are significantly more likely to leave.
+- Low **Job Satisfaction** and **Monthly Income** strongly correlate with higher attrition.
+- Top contributing features include:
+  - `OverTime`
+  - `JobLevel`
+  - `MonthlyIncome`
+  - `Age`
 
-Model Used: Random Forest Classifier
+---
 
-Evaluation: High precision in detecting attrition cases
+## ✅ Results
 
-Output: Classification report and bar chart of top features
+- **Model Used:** Random Forest Classifier
+- **Performance:** High precision and recall on attrition cases
+- **Output:** Classification report + Bar chart of top features
 
-📁 Files
+---
 
-hr_attrition_project.py – Full project code
+## 📁 Files Included
 
-README.md – Project overview and documentation
+- `hr_attrition_project.py` – Full Python script (data processing, model training, evaluation)
+- `README.md` – Project documentation
 
-🙋‍♂️ Author
+---
 
-Aadarsh Jaiswal
-Data Analyst | Machine Learning Enthusiast
+## 🙋‍♂️ Author
 
+**Aadarsh Jaiswal**  
+Data Analyst | Machine Learning Enthusiast  
+📧 [aadarshjaiswal.vns@gmail.com](mailto:aadarshjaiswal.vns@gmail.com)  
+🔗 [LinkedIn](https://linkedin.com/in/aadarsh-jaiswal)  
+💻 [GitHub](https://github.com/aadarshjaiswalvns)
+
+---
+
+> ⭐ *If you found this project helpful, give it a star and share feedback!*
